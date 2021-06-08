@@ -1,0 +1,178 @@
+.login {
+  position: relative;
+  width: 1920px;
+  height: 1590px;
+
+  background: #ffffff;
+}
+
+.left-col {
+  position: absolute;
+  width: 894px;
+  height: 1590px;
+  left: 0px;
+  top: 0px;
+
+  background: #f1f7ff;
+}
+
+.logo {
+  position: absolute;
+  width: 215px;
+  height: 142px;
+  left: 140px;
+  top: 54px;
+}
+
+.head {
+  position: absolute;
+  width: 394px;
+  height: 73px;
+  left: 140px;
+  top: 530px;
+
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 73px;
+  /* identical to box height */
+
+  color: #3362a8;
+}
+
+.head-description {
+  position: absolute;
+  width: 667px;
+  height: 76px;
+  left: 140px;
+  top: 621px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+
+  color: #000000;
+}
+
+.signin-link {
+  position: absolute;
+  width: 287px;
+  height: 30px;
+  left: 1233px;
+  top: 110px;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.register-btn {
+  position: absolute;
+  width: 237px;
+  height: 76px;
+  left: 1543px;
+  top: 87px;
+  font-size: 22px;
+  background: #ffffff;
+  border: 1px solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.email {
+  position: absolute;
+  width: 672px;
+  height: 103px;
+  left: 996px;
+  top: 463px;
+  font-size: 22px;
+  background: #ffffff;
+  border: 1px solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.password {
+  position: absolute;
+  width: 672px;
+  height: 103px;
+  left: 996px;
+  top: 598px;
+  font-size: 22px;
+  background: #ffffff;
+  border: 1px solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.signin {
+  position: absolute;
+  width: 237px;
+  height: 76px;
+  left: 1213px;
+  top: 780px;
+  font-size: 22px;
+  color: white;
+  background: #3362a8;
+  border: 1px solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.reset-password {
+  position: absolute;
+  width: 193px;
+  height: 30px;
+  left: 1236px;
+  top: 891px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+  text-decoration: none;
+  color: #3362a8;
+}
+
+.divider {
+}
+.login-options {
+  position: absolute;
+  width: 111px;
+  height: 30px;
+  left: 1277px;
+  top: 1053px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.google-btn {
+  position: absolute;
+  width: 102px;
+  height: 103px;
+  left: 1281px;
+  top: 1120px;
+
+  background: #ffffff;
+  border: 1px solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
