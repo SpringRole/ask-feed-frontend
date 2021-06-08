@@ -1,6 +1,6 @@
 # Ask-Feed!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is kind of Feedback system in which will allow the users to send surveys via mail to their customers and in return gather their feedback! This gives the user an indication about their products standing in the market and also the genuine feedback regarding the same
 
 ## Available Scripts
 
