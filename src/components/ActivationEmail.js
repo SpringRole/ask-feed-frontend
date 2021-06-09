@@ -26,26 +26,13 @@ function ActivationEmail() {
     }
   }, [token]);
 
-  // const res = await fetch("/api/signup", {
-  //   method: "POST",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //   },
-
-  //   const [err, setErr] = useState("");
-  //   const [success, setSuccess] = useState("");
-  //   useEffect(()=>{
-  //       if(tonpmken){
-  //           const
-  //       }
-  //   })
   return (
     <div className="active_page">
       {err && showErrMsg(err)}
       {success && showSuccessMsg(success)}
       {/* <NavLink>Kindly click on this link</NavLink> */}
       <h1>Successs!!</h1>
-      {/* <Button onClick={}/> */}
+
     </div>
   );
 }
