@@ -6,11 +6,14 @@ import * as actions from "../actions";
 import Login from "./Login";
 import Signup from "./Signup";
 import About from "./About";
+import ResetLink from "./ResetLink";
 import Dashboard from "./Dashboard";
+import ResetPassword from "./ResetPassword";
 import SurveyNew from "./SurveyNew";
 import Header from "./Header";
 import "./App.css";
 import ActivationEmail from "./ActivationEmail";
+// import ResetPassword from "./ResetPassword.js";
 
 class App extends Component {
   // componentDidMount() {
@@ -46,7 +49,12 @@ class App extends Component {
               path="/api/activate/:token"
               component={ActivationEmail}
             />
-
+            <Route exact path="/api/resetlink">
+              <ResetLink />
+            </Route>
+            <Route exact path="/api/changepassword/:token">
+              <ResetPassword />
+            </Route>
             {/* <Route exact path="/surveys/new">
             <SurveyNew />
           </Route>  */}
