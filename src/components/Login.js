@@ -82,7 +82,7 @@ const Login = () => {
                 required
               />
             </div>
-            <NavLink to="/" className="reset-password">
+            <NavLink to="/api/resetlink" className="reset-password">
               Forget Password ?
             </NavLink>
             <NavLink to="/register" className="signin-link">
