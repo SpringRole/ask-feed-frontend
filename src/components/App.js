@@ -16,19 +16,14 @@ import ActivationEmail from "./ActivationEmail";
 // import ResetPassword from "./ResetPassword.js";
 
 class App extends Component {
-  // componentDidMount() {
-  //   this.props.fetchUser();
-  // }
+
 
   render() {
     return (
       <div className="container">
         <BrowserRouter>
           <div>
-            {/* <Route exact path="/header">
-            <Header />
-          </Route> */}
-            {/* <Header /> */}
+           
             <Route exact path="/">
               <LandingPage />
             </Route>
