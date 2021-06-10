@@ -1,0 +1,144 @@
+.create-survey {
+  position: absolute;
+  width: 237px;
+  height: 76px;
+  left: 1149px;
+  top: 53px;
+  font-size: 22px;
+  background: #3362a8;
+  border: 1px solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+}
+
+.head-logo {
+  position: absolute;
+  width: 215px;
+  height: 142px;
+  left: 140px;
+  top: 20px;
+}
+
+.dashboard-btn {
+  position: absolute;
+  width: 237px;
+  height: 76px;
+  left: 1426px;
+  top: 53px;
+
+  background: #ffffff;
+  border: 1px solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #3362a8;
+  font-size: 22px;
+}
+.logout {
+  position: absolute;
+  width: 77px;
+  height: 30px;
+  left: 1703px;
+  top: 76px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #3362a8;
+}
+
+.footer {
+  position: absolute;
+  width: 1920px;
+  height: 243px;
+  left: 0px;
+  top: 1347px;
+
+  background: #f1f7ff;
+}
+
+.footer-logo {
+  position: absolute;
+  width: 215px;
+  height: 142px;
+  left: 140px;
+  top: 1398px;
+}
+
+.about-us {
+  position: absolute;
+  width: 101px;
+  height: 30px;
+  left: 1255px;
+  top: 1454px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #3362a8;
+}
+
+.terms {
+  position: absolute;
+  width: 141px;
+  height: 30px;
+  left: 1639px;
+  top: 1454px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #3362a8;
+}
+
+.pricing {
+  position: absolute;
+  width: 76px;
+  height: 30px;
+  left: 1533px;
+  top: 1454px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #3362a8;
+}
+.contact-us {
+  position: absolute;
+  width: 117px;
+  height: 30px;
+  left: 1386px;
+  top: 1454px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #3362a8;
+}
+
+.create-survey-anchor {
+  position: absolute;
+  width: 185px;
+  height: 30px;
+  left: 806px;
+  top: 1218px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #3362a8;
+}
