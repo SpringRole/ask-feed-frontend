@@ -142,3 +142,234 @@
 
   color: #3362a8;
 }
+
+.info-box {
+  position: absolute;
+  width: 601px;
+  height: 612px;
+  left: 140px;
+  top: 585px;
+
+  background: #e9f2f3;
+  opacity: 0.1;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.name-head {
+  position: absolute;
+  width: 102px;
+  height: 30px;
+  left: 180px;
+  top: 649px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #666666;
+
+  opacity: 0.5;
+}
+
+.name-info {
+  position: absolute;
+  width: 44px;
+  height: 30px;
+  left: 180px;
+  top: 694px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  padding-left: 25px;
+
+  color: #000000;
+}
+
+.email-head {
+  position: absolute;
+  width: 132px;
+  height: 30px;
+  left: 165px;
+  top: 788px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #666666;
+
+  opacity: 0.5;
+}
+
+.email-info {
+  position: absolute;
+  width: 205px;
+  height: 30px;
+  left: 199px;
+  top: 833px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.divider {
+  position: absolute;
+  width: 493px;
+  height: 0px;
+  left: 183px;
+  top: 1058px;
+
+  opacity: 0.1;
+  border: 1px solid #000000;
+}
+
+.phone-number-head {
+  position: absolute;
+  width: 119px;
+  height: 30px;
+  left: 170px;
+  top: 935px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #666666;
+
+  opacity: 0.5;
+}
+
+.phone-number-info {
+  position: absolute;
+  width: 110px;
+  height: 30px;
+  left: 193px;
+  top: 980px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.change-password-anchor {
+  position: absolute;
+  width: 81px;
+  height: 27px;
+  left: 211px;
+  top: 1109px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration-line: none;
+
+  color: #3362a8;
+}
+
+.current-survey-head {
+  position: absolute;
+  width: 240px;
+  height: 30px;
+  left: 789px;
+  top: 585px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 30px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  color: #3362a8;
+}
+
+.survey-box {
+  position: absolute;
+  width: 1016px;
+  height: 523px;
+  left: 780px;
+  top: 668px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.name-dashboard {
+  position: absolute;
+  width: 477px;
+  height: 73px;
+  left: 140px;
+  top: 244px;
+
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 73px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.box-info {
+  position: absolute;
+  width: 324px;
+  height: 60px;
+  left: 1126px;
+  top: 891px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  /* or 120% */
+
+  text-align: center;
+
+  color: #746276;
+}
+
