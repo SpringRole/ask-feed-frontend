@@ -1,50 +1,59 @@
 import React, { Component } from "react";
+import _ from "lodash";
 import { reduxForm, Field } from "redux-form";
 import SurveyField from "./SurveyField";
+import { Link } from "react-router-dom";
+import "./SurveyForm.css";
+
+const FIELDS = [
+  { label: "Survey Title", name: "title" },
+  { label: "Subject  Line", name: "subject" },
+  { label: "Email Body", name: "body" },
+  { label: "Recipient List", name: "emails" },
+];
+
 class SurveyForm extends Component {
   renderFields() {
-    return (
-      <div>
+    return _.map(FIELDS, ({ label, name }) => {
+      return (
         <Field
-          label="Survey Title"
-          type="text"
-          name="title"
+          key={name}
           component={SurveyField}
-        />
-        <Field
-          label="Subject Line"
           type="text"
-          name="subject"
-          component={SurveyField}
+          label={label}
+          name={name}
         />
-        <Field
-          label="Email Body"
-          type="text"
-          name="body"
-          component={SurveyField}
-        />
-        <Field
-          label="Recipient List"
-          type="text"
-          name="emails"
-          component={SurveyField}
-        />
-      </div>
-    );
+      );
+    });
   }
   render() {
     return (
       <div>
         <form
+          className="text-form"
           onSubmit={this.props.handleSubmit((values) => console.log(values))}
         >
+          <Link>Cancel</Link>
           {this.renderFields()}
-          <button type="submit">Submit</button>
+          <button className="submit-btn" type="submit">
+            Next
+          </button>
         </form>
       </div>
     );
   }
 }
+
+function validate(values) {
+  const errors = {};
+
+  if (!values.title) {
+    errors.title = "You must provide a title!";
+  }
+
+  return errors;
+}
 export default reduxForm({
+  validate: validate,
   form: "surveyForm",
 })(SurveyForm);
