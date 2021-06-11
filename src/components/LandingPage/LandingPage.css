@@ -41,28 +41,20 @@ body {
 
   /* background: url(ask_feed-removebg-preview.png); */
 }
-.login-btn {
-  position: absolute;
+
+.loginn {
   width: 60px;
   height: 30px;
   left: 1420px;
-  top: 76px;
-  background-color: #f1f7ff;
-  border-color: #f1f7ff;
+  top: 107px;
+  text-decoration: none;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 30px;
   /* identical to box height */
-  text-decoration: none;
   color: #3362a8;
-}
-.loginn {
-  text-decoration: none;
-  color: #3362a8;
-  font-size: 30px;
-  padding-right: 50px;
 }
 .registerr {
   text-decoration: none;
