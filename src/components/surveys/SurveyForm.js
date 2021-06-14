@@ -5,13 +5,6 @@ import SurveyField from "./SurveyField";
 import { Link } from "react-router-dom";
 import "./SurveyForm.css";
 
-const FIELDS = [
-  { label: "Survey Title", name: "title" },
-  { label: "Subject  Line", name: "subject" },
-  { label: "Email Body", name: "body" },
-  { label: "Recipient List", name: "emails" },
-];
-
 class SurveyForm extends Component {
   renderFields() {
     return _.map(FIELDS, ({ label, name }) => {
@@ -31,7 +24,7 @@ class SurveyForm extends Component {
       <div>
         <form
           className="text-form"
-          onSubmit={this.props.handleSubmit((values) => console.log(values))}
+          onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}
         >
           <Link>Cancel</Link>
           {this.renderFields()}
@@ -46,14 +39,18 @@ class SurveyForm extends Component {
 
 function validate(values) {
   const errors = {};
+  errors.recipients = validateEmails(values.recipients || "");
 
-  if (!values.title) {
-    errors.title = "You must provide a title!";
-  }
+  _.each(formFields, ({ name }) => {
+    if (!values[name]) {
+      errors[name] = "Please enter a value!";
+    }
+  });
 
   return errors;
 }
 export default reduxForm({
   validate: validate,
   form: "surveyForm",
+  destroyOnUnmount: false,
 })(SurveyForm);
