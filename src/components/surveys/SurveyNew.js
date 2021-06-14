@@ -1,14 +1,31 @@
 //Survey new shows us SurveyForm and SurveyFormReview
 import React, { Component } from "react";
 import SurveyForm from "./SurveyForm";
+import { reduxForm } from "redux-form";
+import SurveyFormReview from "./SurveyFormReview";
+import "./SurveyNew.css";
 
 class SurveyNew extends Component {
-  render() {
+  state = { showFormReview: false };
+
+  renderContent() {
+    if (this.state.showFormReview) {
+      return (
+        <SurveyFormReview
+          onCancel={() => this.setState({ showFormReview: false })}
+        />
+      );
+    }
     return (
-      <div>
-        <SurveyForm />
-      </div>
+      <SurveyForm
+        onSurveySubmit={() => this.setState({ showFormReview: true })}
+      />
     );
   }
+  render() {
+    return <div>{this.renderContent()}</div>;
+  }
 }
-export default SurveyNew;
+export default reduxForm({
+  form: "surveyForm",
+})(SurveyNew);
