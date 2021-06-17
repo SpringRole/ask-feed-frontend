@@ -1,143 +1,163 @@
+html {
+  font-size: 62.5%;
+}
+
 .create-survey {
   position: absolute;
-  width: 237px;
-  height: 76px;
-  left: 1149px;
-  top: 53px;
-  font-size: 22px;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 114.9rem;
+  top: 5.3rem;
+  font-size: 2.2rem;
   background: #3362a8;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   color: white;
 }
 
 .head-logo {
   position: absolute;
-  width: 215px;
-  height: 142px;
-  left: 140px;
-  top: 20px;
+  width: 21.5rem;
+  height: 14.2rem;
+  left: 14rem;
+  top: 2rem;
 }
 
 .dashboard-btn {
   position: absolute;
-  width: 237px;
-  height: 76px;
-  left: 1426px;
-  top: 53px;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 142.6rem;
+  top: 5.3rem;
 
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   color: #3362a8;
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 .logout {
   position: absolute;
-  width: 77px;
-  height: 30px;
-  left: 1703px;
-  top: 76px;
+  width: 7.7rem;
+  height: 3rem;
+  left: 170.3rem;
+  top: 7.6rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   color: #3362a8;
 }
 
 .footer {
   position: absolute;
-  width: 1920px;
-  height: 243px;
-  left: 0px;
-  top: 1347px;
+  width: 192rem;
+  height: 24.3rem;
+  left: 0rem;
+  top: 134.7rem;
 
-  background: #f1f7ff;
+  /* background: #f1f7ff; */
 }
 
 .footer-logo {
   position: absolute;
-  width: 215px;
-  height: 142px;
-  left: 140px;
-  top: 1398px;
+  width: 21.5rem;
+  height: 14.2rem;
+  left: 14rem;
+  top: 139.8rem;
 }
 
 .about-us {
   position: absolute;
-  width: 101px;
-  height: 30px;
-  left: 1255px;
-  top: 1454px;
+  width: 10.1rem;
+  height: 3rem;
+  left: 125.5rem;
+  top: 145.4rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   color: #3362a8;
 }
 
 .terms {
   position: absolute;
-  width: 141px;
-  height: 30px;
-  left: 1639px;
-  top: 1454px;
+  width: 14.1rem;
+  height: 3rem;
+  left: 163.9rem;
+  top: 145.4rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  color: #3362a8;
+}
+.edit-info {
+  position: absolute;
+  width: 17.1rem;
+  height: 2.7rem;
+  left: 36.7rem;
+  top: 110.8rem;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-decoration-line: none;
+
   color: #3362a8;
 }
 
 .pricing {
   position: absolute;
-  width: 76px;
-  height: 30px;
-  left: 1533px;
-  top: 1454px;
+  width: 7.6rem;
+  height: 3rem;
+  left: 153.3rem;
+  top: 145.4rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   color: #3362a8;
 }
 .contact-us {
   position: absolute;
-  width: 117px;
-  height: 30px;
-  left: 1386px;
-  top: 1454px;
+  width: 11.7rem;
+  height: 3rem;
+  left: 138.6rem;
+  top: 145.4rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   color: #3362a8;
 }
 
 .create-survey-anchor {
   position: absolute;
-  width: 185px;
-  height: 30px;
-  left: 806px;
-  top: 1218px;
+  width: 18.5rem;
+  height: 3rem;
+  left: 80.6rem;
+  top: 121.8rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
 
   color: #3362a8;
@@ -145,30 +165,30 @@
 
 .info-box {
   position: absolute;
-  width: 601px;
-  height: 612px;
-  left: 140px;
-  top: 585px;
+  width: 60.1rem;
+  height: 61.2rem;
+  left: 14rem;
+  top: 58.5rem;
 
   background: #e9f2f3;
   opacity: 0.1;
-  border: 1px solid #000000;
+  border: 0.1rem solid #000000;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .name-head {
   position: absolute;
-  width: 102px;
-  height: 30px;
-  left: 180px;
-  top: 649px;
+  width: 10.2rem;
+  height: 3rem;
+  left: 18rem;
+  top: 64.9rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   /* identical to box height, or 150% */
 
   text-align: center;
@@ -180,36 +200,36 @@
 
 .name-info {
   position: absolute;
-  width: 44px;
-  height: 30px;
-  left: 180px;
-  top: 694px;
+  width: 4.4rem;
+  height: 3rem;
+  left: 18rem;
+  top: 69.4rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   /* identical to box height, or 150% */
 
   text-align: center;
-  padding-left: 25px;
+  padding-left: 2.5rem;
 
   color: #000000;
 }
 
 .email-head {
   position: absolute;
-  width: 132px;
-  height: 30px;
-  left: 165px;
-  top: 788px;
+  width: 13.2rem;
+  height: 3rem;
+  left: 16.5rem;
+  top: 78.8rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   /* identical to box height, or 150% */
 
   text-align: center;
@@ -221,16 +241,16 @@
 
 .email-info {
   position: absolute;
-  width: 205px;
-  height: 30px;
-  left: 199px;
-  top: 833px;
+  width: 20.5rem;
+  height: 3rem;
+  left: 19.9rem;
+  top: 83.3rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   /* identical to box height, or 150% */
 
   text-align: center;
@@ -240,27 +260,27 @@
 
 .divider {
   position: absolute;
-  width: 493px;
-  height: 0px;
-  left: 183px;
-  top: 1058px;
+  width: 49.3rem;
+  height: 0rem;
+  left: 18.3rem;
+  top: 105.8rem;
 
   opacity: 0.1;
-  border: 1px solid #000000;
+  border: 0.1rem solid #000000;
 }
 
 .phone-number-head {
   position: absolute;
-  width: 119px;
-  height: 30px;
-  left: 170px;
-  top: 935px;
+  width: 11.9rem;
+  height: 3rem;
+  left: 17rem;
+  top: 93.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   /* identical to box height, or 150% */
 
   text-align: center;
@@ -272,16 +292,16 @@
 
 .phone-number-info {
   position: absolute;
-  width: 110px;
-  height: 30px;
-  left: 193px;
-  top: 980px;
+  width: 11rem;
+  height: 3rem;
+  left: 19.3rem;
+  top: 98rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 2rem;
+  line-height: 3rem;
   /* identical to box height, or 150% */
 
   text-align: center;
@@ -291,16 +311,16 @@
 
 .change-password-anchor {
   position: absolute;
-  width: 81px;
-  height: 27px;
-  left: 211px;
-  top: 1109px;
+  width: 8.1rem;
+  height: 2.7rem;
+  left: 21.1rem;
+  top: 110.9rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 2rem;
+  line-height: 2.7rem;
   text-decoration-line: none;
 
   color: #3362a8;
@@ -308,16 +328,16 @@
 
 .current-survey-head {
   position: absolute;
-  width: 240px;
-  height: 30px;
-  left: 789px;
-  top: 585px;
+  width: 24rem;
+  height: 3rem;
+  left: 78.9rem;
+  top: 58.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 33px;
-  line-height: 30px;
+  font-size: 3.3rem;
+  line-height: 3rem;
   /* identical to box height, or 120% */
 
   text-align: center;
@@ -327,49 +347,62 @@
 
 .survey-box {
   position: absolute;
-  width: 1016px;
-  height: 523px;
-  left: 780px;
-  top: 668px;
+  width: 101.6rem;
+  height: 52.3rem;
+  left: 78rem;
+  top: 66.8rem;
 
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
-  border-radius: 6px;
+  border-radius: 0.6rem;
 }
 
 .name-dashboard {
   position: absolute;
-  width: 477px;
-  height: 73px;
-  left: 140px;
-  top: 244px;
+  width: 47.7rem;
+  height: 7.3rem;
+  left: 14rem;
+  top: 24.4rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   color: #000000;
 }
 .box-info {
   position: absolute;
-  width: 324px;
-  height: 60px;
-  left: 1126px;
-  top: 891px;
+  width: 32.4rem;
+  height: 6rem;
+  left: 112.6rem;
+  top: 89.1rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   /* or 120% */
 
   text-align: center;
 
   color: #746276;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
+
 
