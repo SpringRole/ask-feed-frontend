@@ -128,17 +128,6 @@ const Signup = () => {
           </form>
         </div>
       </div>
-      <div className="divider"></div>
-      <div className="circle"></div>
-      <p className="OR">OR</p>
-      <div className="options">Login with</div>
-      <button className="GoogleLogin">Goggle</button>
-      <div className="terms">
-        By clicking ‘Register’, you agree to the Terms of Use and Privacy
-        Notice. You also agree to receive information and offers relevant to our
-        services via email. You can opt-out of these emails in your My Account
-        page anytime.
-      </div>
     </>
   );
 };
