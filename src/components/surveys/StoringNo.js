@@ -18,7 +18,6 @@ function StoringNo() {
             }
           );
           setSuccess(res.data.msg);
-          console.log(res);
         } catch (err) {
           err.response.data.msg && setErr(err.response.data.msg);
         }
