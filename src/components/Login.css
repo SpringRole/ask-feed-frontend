@@ -1,41 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
 .login {
   position: relative;
-  width: 1920px;
-  height: 1590px;
+  width: 19.2rem;
+  height: 15.9rem;
 
   background: #ffffff;
 }
 
 .left-col {
   position: absolute;
-  width: 894px;
-  height: 1590px;
-  left: 0px;
-  top: 0px;
+  width: 8.94rem;
+  height: 15.9rem;
+  left: 0rem;
+  top: 0rem;
 
   background: #f1f7ff;
 }
 
 .logo {
   position: absolute;
-  width: 215px;
-  height: 142px;
-  left: 140px;
-  top: 54px;
+  width: 21.5rem;
+  height: 14.2rem;
+  left: 14rem;
+  top: 5.4rem;
 }
 
 .head {
   position: absolute;
-  width: 394px;
-  height: 73px;
-  left: 140px;
-  top: 530px;
+  width: 39.4rem;
+  height: 7.3rem;
+  left: 14rem;
+  top: 53rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   color: #3362a8;
@@ -43,32 +47,32 @@
 
 .head-description {
   position: absolute;
-  width: 667px;
-  height: 76px;
-  left: 140px;
-  top: 621px;
+  width: 66.7rem;
+  height: 7.6rem;
+  left: 14rem;
+  top: 62.1rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .signin-link {
   position: absolute;
-  width: 287px;
-  height: 30px;
-  left: 1233px;
-  top: 110px;
+  width: 28.7rem;
+  height: 3rem;
+  left: 123.3rem;
+  top: 11rem;
   text-decoration: none;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
 
   color: #000000;
@@ -76,87 +80,85 @@
 
 .register-btn {
   position: absolute;
-  width: 237px;
-  height: 76px;
-  left: 1543px;
-  top: 87px;
-  font-size: 22px;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 154.3rem;
+  top: 8.7rem;
+  font-size: 2.2rem;
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .email {
   position: absolute;
-  width: 672px;
-  height: 103px;
-  left: 996px;
-  top: 463px;
-  font-size: 22px;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 46.3rem;
+  font-size: 2.2rem;
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .password {
   position: absolute;
-  width: 672px;
-  height: 103px;
-  left: 996px;
-  top: 598px;
-  font-size: 22px;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 59.8rem;
+  font-size: 2.2rem;
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 .signin {
   position: absolute;
-  width: 237px;
-  height: 76px;
-  left: 1213px;
-  top: 780px;
-  font-size: 22px;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 121.3rem;
+  top: 78rem;
+  font-size: 2.2rem;
   color: white;
   background: #3362a8;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .reset-password {
   position: absolute;
-  width: 193px;
-  height: 30px;
-  left: 1236px;
-  top: 891px;
+  width: 19.3rem;
+  height: 3rem;
+  left: 123.6rem;
+  top: 89.1rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
   text-decoration: none;
   color: #3362a8;
 }
 
-.divider {
-}
 .login-options {
   position: absolute;
-  width: 111px;
-  height: 30px;
-  left: 1277px;
-  top: 1053px;
+  width: 11.1rem;
+  height: 3rem;
+  left: 127.7rem;
+  top: 105.3rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
 
   color: #000000;
@@ -166,13 +168,25 @@
 
 .google-btn {
   position: absolute;
-  width: 102px;
-  height: 103px;
-  left: 1281px;
-  top: 1120px;
+  width: 10.2rem;
+  height: 10.3rem;
+  left: 128.1rem;
+  top: 112rem;
 
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
 }
