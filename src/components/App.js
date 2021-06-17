@@ -5,12 +5,10 @@ import { connect } from "react-redux";
 import * as actions from "../actions";
 import Login from "./Login";
 import Signup from "./Signup";
-// import About from "./About";
 import ResetLink from "./ResetLink";
 import Dashboard from "./Dashboard";
 import ResetPassword from "./ResetPassword";
 import SurveyNew from "./surveys/SurveyNew";
-import "./App.css";
 import Logout from "./Logout";
 import EditInfo from "./EditInfo";
 import ActivationEmail from "./ActivationEmail";
@@ -33,9 +31,6 @@ class App extends Component {
             <Route exact path="/register">
               <Signup />
             </Route>
-            {/* <Route exact path="/about">
-            <About />
-          </Route> */}
             <Route exact path="/dashboard">
               <Dashboard />
             </Route>
