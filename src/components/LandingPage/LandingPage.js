@@ -19,9 +19,6 @@ function LandingPage() {
         <div className="logo">
           <img src={logo} alt="Logo" />
         </div>
-        <NavLink className="loginn" to="/login">
-          Login
-        </NavLink> 
         <button type="button" className="register-btn">
           <NavLink to="/register" className="registerr">
             Register
