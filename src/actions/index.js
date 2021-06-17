@@ -1,5 +1,5 @@
 import axios from "axios";
-import { FETCH_USER, FETCH_SURVEYS } from "./types";
+import {  FETCH_SURVEYS } from "./types";
 
 export const submitSurvey = (values, history) => async (dispatch) => {
   const res = await axios.post(
