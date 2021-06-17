@@ -90,12 +90,6 @@ const Login = () => {
             </NavLink>
             <button className="register-btn">Create an Account</button>
           </form>
-          <div className="divider"></div>
-          <div className="OR">OR</div>
-          <p className="login-options">Login With</p>
-          <button className="google-btn">
-            <a href="/auth/google"> Google</a>
-          </button>
         </div>
       </div>
     </>
