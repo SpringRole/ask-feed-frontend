@@ -1,32 +1,34 @@
-
+html {
+  font-size: 62.5%;
+  zoom: 67%;
+}
 
 body {
   width: 100%;
   height: 100%;
- 
 }
 .header {
   position: absolute;
-  width: 1920px;
-  height: 1080px;
-  left: 0px;
-  top: 0px;
+  width: 192rem;
+  height: 108rem;
+  left: 0rem;
+  top: 0rem;
 
   background: #f1f7ff;
 }
 
 .header .header-title {
   position: absolute;
-  width: 810px;
-  height: 73px;
-  left: 140px;
-  top: 351px;
+  width: 81rem;
+  height: 7.3rem;
+  left: 14rem;
+  top: 35.1rem;
 
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   color: #000000;
@@ -34,45 +36,64 @@ body {
 
 .logo {
   position: absolute;
-  width: 215px;
-  height: 142px;
-  left: 140px;
-  top: 20px;
-
-  /* background: url(ask_feed-removebg-preview.png); */
+  width: 21.5rem;
+  height: 14.2rem;
+  left: 14rem;
+  top: 2rem;
 }
 
+/* background: url(ask_feed-removebg-preview.png); */
+/* }
+.login-btn {
+  position: absolute;
+  width: 60rem;
+  height: 30rem;
+  left: 1420rem;
+  top: 76rem;
+  background-color: #f1f7ff;
+  border-color: #f1f7ff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22rem;
+  line-height: 30rem;
+  /* identical to box height */
+/* text-decoration: none;
+  color: #3362a8;
+}
+*/
 .loginn {
-  width: 60px;
-  height: 30px;
-  left: 1420px;
-  top: 107px;
+  width: 6rem;
+  height: 3rem;
+  left: 142rem;
+
+  top: 10.7rem;
   text-decoration: none;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   /* identical to box height */
   color: #3362a8;
 }
 .registerr {
   text-decoration: none;
   color: #3362a8;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 .register-btn {
   position: absolute;
-  width: 237px;
-  height: 76px;
-  left: 1543px;
-  top: 53px;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 154.3rem;
+  top: 5.3rem;
 
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 
   /* identical to box height */
 
@@ -80,41 +101,41 @@ body {
 }
 .header .header-sub {
   position: absolute;
-  width: 830px;
-  height: 150px;
-  left: 140px;
-  top: 456px;
-  padding-top: 40px;
+  width: 83rem;
+  height: 15rem;
+  left: 14rem;
+  top: 45.6rem;
+  padding-top: 4rem;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 2.2rem;
 
-  line-height: 30px;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .hero-image {
   position: absolute;
-  width: 438px;
-  height: 643px;
-  left: 1231px;
-  top: 219px;
+  width: 43.8rem;
+  height: 64.3rem;
+  left: 123.1rem;
+  top: 21.9rem;
 }
 
 .next-heading {
   position: absolute;
-  width: 677px;
-  height: 146px;
-  left: 622px;
-  top: 1143px;
+  width: 67.7rem;
+  height: 14.6rem;
+  left: 62.2rem;
+  top: 114.3rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   text-align: center;
 
   color: #3362a8;
@@ -122,16 +143,16 @@ body {
 
 .after-next-heading {
   position: absolute;
-  width: 341px;
-  height: 73px;
-  left: 790px;
-  top: 1477px;
+  width: 34.1rem;
+  height: 7.3rem;
+  left: 79rem;
+  top: 147.7rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   color: #000000;
@@ -139,27 +160,27 @@ body {
 
 .ellipse-1 {
   position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 214px;
-  top: 1667px;
+  width: 6.4rem;
+  height: 6.4rem;
+  left: 21.4rem;
+  top: 166.7rem;
   border-radius: 50%;
   background: #3362a8;
 }
 .ellipse-1 .num-1 {
   /* position: absolute; */
-  width: 24px;
-  height: 73px;
-  left: 234px;
-  top: 1658px;
+  width: 2.4rem;
+  height: 7.3rem;
+  left: 23.4rem;
+  top: 165.8rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
 
-  padding-left: 20px;
+  padding-left: 2rem;
   text-align: center;
 
   color: #ffffff;
@@ -167,60 +188,60 @@ body {
 
 .el-head-1 {
   position: absolute;
-  width: 239px;
-  height: 38px;
-  /* left: 224px;
-    top: 1742px; */
+  width: 23.9rem;
+  height: 3.8rem;
+  /* left: 224rem;
+    top: 1742rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .el-p-1 {
   position: absolute;
-  width: 342px;
-  height: 120px;
-  /* left: 224px;
-    top: 1788px; */
+  width: 34.2rem;
+  height: 12rem;
+  /* left: 224rem;
+    top: 1788rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .ellipse-2 {
   position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 596px;
-  top: 1667px;
+  width: 6.4rem;
+  height: 6.4rem;
+  left: 59.6rem;
+  top: 166.7rem;
   border-radius: 50%;
   background: #3362a8;
 }
 
 .ellipse-2 .num-2 {
   /* position: absolute; */
-  width: 27px;
-  height: 73px;
-  left: 615px;
-  top: 1658px;
+  width: 2.7rem;
+  height: 7.3rem;
+  left: 61.5rem;
+  top: 165.8rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
-  padding-left: 20px;
+  padding-left: 2rem;
   text-align: center;
 
   color: #ffffff;
@@ -228,209 +249,209 @@ body {
 
 .el-head-2 {
   position: absolute;
-  width: 253px;
-  height: 38px;
-  /* left: 606px;
-    top: 1742px; */
+  width: 25.3rem;
+  height: 3.8rem;
+  /* left: 606rem;
+    top: 1742rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .el-p-2 {
   position: absolute;
-  width: 359px;
-  height: 90px;
-  /* left: 606px;
-    top: 1788px; */
+  width: 35.9rem;
+  height: 9rem;
+  /* left: 606rem;
+    top: 1788rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .ellipse-3 {
   position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 995px;
-  top: 1667px;
+  width: 6.4rem;
+  height: 6.4rem;
+  left: 99.5rem;
+  top: 166.7rem;
   border-radius: 50%;
   background: #3362a8;
 }
 
 .ellipse-3 .num-3 {
   /* position: absolute; */
-  width: 28px;
-  height: 73px;
-  left: 1013px;
-  top: 1658px;
+  width: 2.8rem;
+  height: 7.3rem;
+  left: 101.3rem;
+  top: 165.8rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   text-align: center;
-  padding-left: 20px;
+  padding-left: 2rem;
   color: #ffffff;
 }
 
 .el-head-3 {
   position: absolute;
-  width: 204px;
-  height: 38px;
-  /* left: 1005px;
-    top: 1742px; */
+  width: 20.4rem;
+  height: 3.8rem;
+  /* left: 1005rem;
+    top: 1742rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 .el-p-3 {
   position: absolute;
-  width: 324px;
-  height: 120px;
-  /* left: 1005px;
-    top: 1788px; */
+  width: 32.4rem;
+  height: 12rem;
+  /* left: 1005rem;
+    top: 1788rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .ellipse-4 {
   position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 1359px;
-  top: 1667px;
+  width: 6.4rem;
+  height: 6.4rem;
+  left: 135.9rem;
+  top: 166.7rem;
   border-radius: 50%;
   background: #3362a8;
 }
 
 .ellipse-4 .num-4 {
   /* position: absolute; */
-  width: 34px;
-  height: 73px;
-  left: 1374px;
-  top: 1658px;
+  width: 3.4rem;
+  height: 7.3rem;
+  left: 137.4rem;
+  top: 165.8rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   text-align: center;
-  padding-left: 15px;
+  padding-left: 1.5rem;
   color: #ffffff;
 }
 
 .el-head-4 {
   position: absolute;
-  width: 114px;
-  height: 38px;
-  /* left: 1369px;
-    top: 1742px; */
+  width: 11.4rem;
+  height: 3.8rem;
+  /* left: 1369rem;
+    top: 1742rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .el-p-4 {
   position: absolute;
-  width: 337px;
-  height: 120px;
-  /* left: 1369px;
-    top: 1788px; */
+  width: 33.7rem;
+  height: 12rem;
+  /* left: 1369rem;
+    top: 1788rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .third-level-image {
   position: absolute;
-  width: 604px;
-  height: 575px;
-  left: 191px;
-  top: 2081px;
+  width: 60.4rem;
+  height: 57.5rem;
+  left: 19.1rem;
+  top: 208.1rem;
 }
 
 .third-level-head {
   position: absolute;
-  width: 830px;
-  height: 146px;
-  left: 899px;
-  top: 2241px;
+  width: 83rem;
+  height: 14.6rem;
+  left: 89.9rem;
+  top: 224.1rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
 
   color: #000000;
 }
 
 .third-level-para {
   position: absolute;
-  width: 744px;
-  height: 90px;
-  left: 899px;
-  top: 2406px;
+  width: 74.4rem;
+  height: 9rem;
+  left: 89.9rem;
+  top: 240.6rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .fourth-level-head {
   position: absolute;
-  width: 556px;
-  height: 73px;
-  left: 682px;
-  top: 2829px;
+  width: 55.6rem;
+  height: 7.3rem;
+  left: 68.2rem;
+  top: 282.9rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   color: #000000;
@@ -438,341 +459,341 @@ body {
 
 .box-1 {
   position: absolute;
-  width: 441px;
-  height: 403px;
-  left: 278px;
-  top: 2993px;
+  width: 44.1rem;
+  height: 40.3rem;
+  left: 27.8rem;
+  top: 299.3rem;
 
   background: #ffffff;
-  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  /* border: 1rem solid rgba(0, 0, 0, 0.1); */
   box-sizing: border-box;
-  border: 1px solid #fe0061;
-  border-radius: 5px;
-  box-shadow: 0px 4px 25px rgba(254, 0, 97, 0.2);
+  border: 0.1rem solid #fe0061;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.4rem 2.5rem rgba(254, 0, 97, 0.2);
 }
 
 .box-img-1 {
   position: absolute;
-  width: 118px;
-  height: 122px;
-  left: 310px;
-  top: 3064px;
+  width: 11.8rem;
+  height: 12.2rem;
+  left: 31rem;
+  top: 306.4rem;
 }
 .box-head-1 {
   position: absolute;
-  width: 253px;
-  height: 38px;
-  left: 310px;
-  top: 3219px;
+  width: 25.3rem;
+  height: 3.8rem;
+  left: 31rem;
+  top: 321.9rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .box-para-1 {
   position: absolute;
-  width: 378px;
-  height: 90px;
-  left: 310px;
-  top: 3265px;
+  width: 37.8rem;
+  height: 9rem;
+  left: 31rem;
+  top: 326.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 .box-2 {
   position: absolute;
-  width: 440px;
-  height: 403px;
-  left: 740px;
-  top: 2993px;
+  width: 44rem;
+  height: 40.3rem;
+  left: 74rem;
+  top: 299.3rem;
 
   background: #ffffff;
-  border: 1px solid #fe0061;
+  border: 0.1rem solid #fe0061;
   box-sizing: border-box;
-  border-radius: 5px;
-  box-shadow: 0px 4px 25px rgba(254, 0, 97, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.4rem 2.5rem rgba(254, 0, 97, 0.2);
 }
 
 .box-img-2 {
   position: absolute;
-  width: 125px;
-  height: 124px;
-  left: 772px;
-  top: 3063px;
+  width: 12.5rem;
+  height: 12.4rem;
+  left: 77.2rem;
+  top: 306.3rem;
 }
 
 .box-head-2 {
   position: absolute;
-  width: 253px;
-  height: 38px;
-  left: 772px;
-  top: 3219px;
+  width: 25.3rem;
+  height: 3.8rem;
+  left: 77.2rem;
+  top: 321.9rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .box-para-2 {
   position: absolute;
-  width: 378px;
-  height: 90px;
-  left: 772px;
-  top: 3265px;
+  width: 37.8rem;
+  height: 9rem;
+  left: 77.2rem;
+  top: 326.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .box-3 {
   position: absolute;
-  width: 463px;
-  height: 423px;
-  left: 1189px;
-  top: 2973px;
+  width: 46.3rem;
+  height: 42.3rem;
+  left: 118.9rem;
+  top: 297.3rem;
 
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 
-  border: 1px solid #fe0061;
-  box-shadow: 0px 4px 25px rgba(254, 0, 97, 0.2);
+  border: 0.1rem solid #fe0061;
+  box-shadow: 0rem 0.4rem 2.5rem rgba(254, 0, 97, 0.2);
 }
 
 .box-img-3 {
   position: absolute;
-  width: 130px;
-  height: 128px;
-  left: 1223px;
-  top: 3048px;
+  width: 13rem;
+  height: 12.8rem;
+  left: 122.3rem;
+  top: 304.8rem;
 }
 
 .box-head-3 {
   position: absolute;
-  width: 265.56px;
-  height: 39.89px;
-  left: 1222.64px;
-  top: 3210.22px;
+  width: 26.556rem;
+  height: 3.989rem;
+  left: 122.264rem;
+  top: 321.022rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .box-para-3 {
   position: absolute;
-  width: 396.76px;
-  height: 94.47px;
-  left: 1222.64px;
-  top: 3258.5px;
+  width: 39.676rem;
+  height: 9.447rem;
+  left: 122.264rem;
+  top: 325.85rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .box-4 {
   position: absolute;
-  width: 441px;
-  height: 403px;
-  left: 278px;
-  top: 3416px;
+  width: 44.1rem;
+  height: 40.3rem;
+  left: 27.8rem;
+  top: 341.6rem;
 
   background: #ffffff;
-  border: 1px solid #fe0061;
-  box-shadow: 0px 4px 25px rgba(254, 0, 97, 0.2);
+  border: 0.1rem solid #fe0061;
+  box-shadow: 0rem 0.4rem 2.5rem rgba(254, 0, 97, 0.2);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .box-img-4 {
   position: absolute;
-  width: 119px;
-  height: 105px;
-  left: 310px;
-  top: 3486px;
+  width: 11.9rem;
+  height: 10.5rem;
+  left: 31rem;
+  top: 348.6rem;
 }
 
 .box-head-4 {
   position: absolute;
-  width: 253px;
-  height: 38px;
-  left: 310px;
-  top: 3636px;
+  width: 25.3rem;
+  height: 3.8rem;
+  left: 31rem;
+  top: 363.6rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .box-para-4 {
   position: absolute;
-  width: 378px;
-  height: 90px;
-  left: 310px;
-  top: 3682px;
+  width: 37.8rem;
+  height: 9rem;
+  left: 31rem;
+  top: 368.2rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .box-5 {
   position: absolute;
-  width: 440px;
-  height: 403px;
-  left: 740px;
-  top: 3416px;
+  width: 44rem;
+  height: 40.3rem;
+  left: 74rem;
+  top: 341.6rem;
 
   background: #ffffff;
-  border: 1px solid #fe0061;
-  box-shadow: 0px 4px 25px rgba(254, 0, 97, 0.2);
+  border: 0.1rem solid #fe0061;
+  box-shadow: 0rem 0.4rem 2.5rem rgba(254, 0, 97, 0.2);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .box-img-5 {
   position: absolute;
-  width: 71px;
-  height: 117px;
-  left: 772px;
-  top: 3486px;
+  width: 7.1rem;
+  height: 11.7rem;
+  left: 77.2rem;
+  top: 348.6rem;
 }
 
 .box-head-5 {
   position: absolute;
-  width: 253px;
-  height: 38px;
-  left: 772px;
-  top: 3636px;
+  width: 25.3rem;
+  height: 3.8rem;
+  left: 77.2rem;
+  top: 363.6rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .box-para-5 {
   position: absolute;
-  width: 378px;
-  height: 90px;
-  left: 772px;
-  top: 3682px;
+  width: 37.8rem;
+  height: 9rem;
+  left: 77.2rem;
+  top: 368.2rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .box-6 {
   position: absolute;
-  width: 441px;
-  height: 403px;
-  left: 1200px;
-  top: 3416px;
+  width: 44.1rem;
+  height: 40.3rem;
+  left: 120rem;
+  top: 341.6rem;
 
   background: #ffffff;
-  border: 1px solid #fe0061;
-  box-shadow: 0px 4px 25px rgba(254, 0, 97, 0.2);
+  border: 0.1rem solid #fe0061;
+  box-shadow: 0rem 0.4rem 2.5rem rgba(254, 0, 97, 0.2);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .box-img-6 {
   position: absolute;
-  width: 124px;
-  height: 124px;
-  left: 1232px;
-  top: 3486px;
+  width: 12.4rem;
+  height: 12.4rem;
+  left: 123.2rem;
+  top: 348.6rem;
 }
 
 .box-head-6 {
   position: absolute;
-  width: 253px;
-  height: 38px;
-  left: 1232px;
-  top: 3636px;
+  width: 25.3rem;
+  height: 3.8rem;
+  left: 123.2rem;
+  top: 363.6rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .box-para-6 {
   position: absolute;
-  width: 378px;
-  height: 90px;
-  left: 1232px;
-  top: 3682px;
+  width: 37.8rem;
+  height: 9rem;
+  left: 123.2rem;
+  top: 368.2rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .testimonial {
   position: absolute;
-  width: 343px;
-  height: 73px;
-  left: 789px;
-  top: 3992px;
+  width: 34.3rem;
+  height: 7.3rem;
+  left: 78.9rem;
+  top: 399.2rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   color: #000000;
@@ -780,66 +801,66 @@ body {
 
 .testimonial-img {
   position: absolute;
-  width: 178px;
-  height: 178px;
-  left: 487px;
-  top: 4169px;
+  width: 17.8rem;
+  height: 17.8rem;
+  left: 48.7rem;
+  top: 416.9rem;
 
-  border: 10px solid #fe0061;
+  border: 1rem solid #fe0061;
   box-sizing: border-box;
 }
 
 .testimonial-box {
   position: absolute;
-  width: 857px;
-  height: 259px;
-  left: 576px;
-  top: 4128px;
+  width: 85.7rem;
+  height: 25.9rem;
+  left: 57.6rem;
+  top: 412.8rem;
 
   /* background: #ffffff; */
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .testimonial-para {
   position: absolute;
-  width: 735px;
-  height: 60px;
-  left: 698px;
-  top: 4209px;
+  width: 73.5rem;
+  height: 6rem;
+  left: 69.8rem;
+  top: 420.9rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 
   color: #000000;
 }
 
 .get-started {
   position: absolute;
-  width: 1920px;
-  height: 348px;
-  left: 0px;
-  top: 4450px;
+  width: 192rem;
+  height: 34.8rem;
+  left: 0rem;
+  top: 445rem;
 
   background: #132047;
 }
 
 .get-started-head {
   position: absolute;
-  width: 572px;
-  height: 73px;
-  left: 140px;
-  top: 4550px;
+  width: 57.2rem;
+  height: 7.3rem;
+  left: 14rem;
+  top: 455rem;
 
   font-family: Paytone One;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   text-align: center;
@@ -849,82 +870,82 @@ body {
 
 .get-started-para {
   position: absolute;
-  width: 830px;
-  height: 60px;
-  left: 190px;
-  top: 4638px;
+  width: 83rem;
+  height: 6rem;
+  left: 19rem;
+  top: 463.8rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* text-align: center; */
   color: #ffffff;
 }
 
 .get-started-btn {
   position: absolute;
-  width: 333px;
-  height: 76px;
-  left: 1294px;
-  top: 4586px;
+  width: 33.3rem;
+  height: 7.6rem;
+  left: 129.4rem;
+  top: 458.6rem;
 
   background: #ffffff;
-  border: 1px solid #225aff;
+  border: 0.1rem solid #225aff;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .get-started-btn-text {
   position: absolute;
-  width: 117px;
-  height: 30px;
-  left: 108px;
-  right: 108px;
-  top: 1px;
-  /* bottom: 23px; */
+  width: 11.7rem;
+  height: 3rem;
+  left: 10.8rem;
+  right: 10.8rem;
+  top: 0.1rem;
+  /* bottom: 23rem; */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
 
   color: #3362a8;
 }
 
-.footer {
+.footer-land {
   position: absolute;
-  width: 1920px;
-  height: 243px;
-  left: 0px;
-  top: 4798px;
+  width: 192rem;
+  height: 24.3rem;
+  left: 0rem;
+  top: 479.8rem;
 
   background: #f1f7ff;
 }
 
 .footer-img {
   position: absolute;
-  width: 215px;
-  height: 142px;
-  left: 140px;
-  top: 4849px;
+  width: 21.5rem;
+  height: 14.2rem;
+  left: 14rem;
+  top: 484.9rem;
 }
 
 .footer-about-us-btn {
   position: absolute;
-  width: 101px;
-  height: 30px;
-  left: 1255px;
-  top: 4905px;
+  width: 10.1rem;
+  height: 3rem;
+  left: 125.5rem;
+  top: 490.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
   background-color: #f1f7ff;
   border-color: #f1f7ff;
@@ -933,16 +954,16 @@ body {
 
 .footer-contact-us-btn {
   position: absolute;
-  width: 117px;
-  height: 30px;
-  left: 1386px;
-  top: 4905px;
+  width: 11.7rem;
+  height: 3rem;
+  left: 138.6rem;
+  top: 490.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
   background-color: #f1f7ff;
   border-color: #f1f7ff;
@@ -951,16 +972,16 @@ body {
 
 .footer-pricing-btn {
   position: absolute;
-  width: 76px;
-  height: 30px;
-  left: 1533px;
-  top: 4905px;
+  width: 7.6rem;
+  height: 3rem;
+  left: 153.3rem;
+  top: 490.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
   background-color: #f1f7ff;
   border-color: #f1f7ff;
@@ -969,18 +990,32 @@ body {
 
 .footer-terms-btn {
   position: absolute;
-  width: 141px;
-  height: 30px;
-  left: 1639px;
-  top: 4905px;
+  width: 14.1rem;
+  height: 3rem;
+  left: 163.9rem;
+  top: 490.5rem;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
   background-color: #f1f7ff;
   border-color: #f1f7ff;
   color: #3362a8;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+  .hero-image {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
 }
