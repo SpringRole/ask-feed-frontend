@@ -26,14 +26,28 @@ function ActivationEmail() {
     }
   }, [token]);
 
-  return (
-    <div className="active_page">
-      {err && showErrMsg(err)}
-      {success && showSuccessMsg(success)}
-      {/* <NavLink>Kindly click on this link</NavLink> */}
-      <h1>Successs!!</h1>
+return (
+    <>
+      <div className="active_page">
+        {err && showErrMsg(err)}
+        {success && showSuccessMsg(success)}
 
-    </div>
+        <h1
+          className="message"
+          style={{ textAlign: "center", marginTop: "30px" }}
+        >
+          Successs!! Click on login to get redirected to the login page!
+        </h1>
+        <a
+          href="/login"
+          className="login-anchor"
+          style={{ textAlign: "center", left: "50px" }}
+        >
+          Login!
+        </a>
+      </div>
+      <img src={logo} alt="logo" className="logo-activation" />
+    </>
   );
 }
 export default ActivationEmail;
