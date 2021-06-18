@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { showErrMsg, showSuccessMsg } from "./utils/notification/Notification";
+import logo from "./LandingPage/images/favicon.png";
+import "./ActivationEmail.css";
 import axios from "axios";
 function ActivationEmail() {
   const { token } = useParams();
