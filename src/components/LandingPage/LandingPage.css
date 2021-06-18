@@ -42,26 +42,6 @@ body {
   top: 2rem;
 }
 
-/* background: url(ask_feed-removebg-preview.png); */
-/* }
-.login-btn {
-  position: absolute;
-  width: 60rem;
-  height: 30rem;
-  left: 1420rem;
-  top: 76rem;
-  background-color: #f1f7ff;
-  border-color: #f1f7ff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22rem;
-  line-height: 30rem;
-  /* identical to box height */
-/* text-decoration: none;
-  color: #3362a8;
-}
-*/
 .loginn {
   width: 6rem;
   height: 3rem;
@@ -69,13 +49,28 @@ body {
 
   top: 10.7rem;
   text-decoration: none;
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5rem;
   line-height: 3rem;
+  padding-left: 142rem;
   /* identical to box height */
   color: #3362a8;
+}
+.login-btn {
+  width: 6rem;
+  /* 30rem */
+  height: 3rem;
+  left: 143rem;
+
+  top: 10.7rem;
+  text-decoration: none;
+  font-family: Open Sans sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 .registerr {
   text-decoration: none;
