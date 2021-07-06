@@ -9,7 +9,7 @@ html {
   left: 14rem;
   top: 53rem;
 
-  font-family: Paytone One;
+  font-family: Paytone One sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 5.2rem;
@@ -26,7 +26,7 @@ html {
   left: 14rem;
   top: 62.1rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 2.8rem;
@@ -59,7 +59,7 @@ html {
   left: 123.3rem;
   top: 11rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2.2rem;
@@ -137,16 +137,6 @@ html {
   border-radius: 0.5rem;
 }
 
-.left-column {
-  position: absolute;
-  width: 89.4rem;
-  height: 159rem;
-  left: 0rem;
-  top: 0rem;
-
-  background: #f1f7ff;
-}
-
 .divider {
   position: absolute;
   width: 67.2rem;
@@ -164,7 +154,7 @@ html {
   left: 132.2rem;
   top: 103rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2.2rem;
@@ -190,7 +180,7 @@ html {
   left: 127.7rem;
   top: 113.5rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2.2rem;
@@ -204,16 +194,30 @@ html {
 
 .login-btn {
   position: absolute;
+  width: 0.0001rem;
+  height: 7.6rem;
+  /* left: 154.3rem; */
+  left: 1.3rem;
+  top: 8.7rem;
+
+  background: #f1f7ff;
+  border: 0.1rem solid #f1f7ff;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+/* .login-btn {
+  position: absolute;
   width: 23.7rem;
   height: 7.6rem;
-  left: 154.3rem;
+  /* left: 154.3rem; */
+/*left: 1.3rem;
   top: 8.7rem;
 
   background: #ffffff;
   border: 0.1rem solid #3362a8;
   box-sizing: border-box;
   border-radius: 0.5rem;
-}
+} */
 
 .logo {
   position: absolute;
@@ -242,7 +246,7 @@ html {
   left: 99.6rem;
   top: 135.3rem;
   font-size: 2.2rem;
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
 
@@ -264,3 +268,4 @@ html {
     font-size: 45%;
   }
 }
+
