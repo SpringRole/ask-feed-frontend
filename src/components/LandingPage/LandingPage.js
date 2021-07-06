@@ -19,7 +19,7 @@ function LandingPage() {
         <div className="logo">
           <img src={logo} alt="Logo" />
         </div>
-         <button type="button" className="login-btn">
+        <button type="button" className="login-btn">
           <NavLink className="loginn" to="/login">
             Login
           </NavLink>
@@ -186,4 +186,3 @@ function LandingPage() {
 }
 
 export default LandingPage;
-
