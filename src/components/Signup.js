@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import "./Signup.css";
-import logo from "../LandingPage/images/favicon.png";
+import logo from "./LandingPage/images/favicon.png";
 
 const Signup = () => {
   const history = useHistory();
