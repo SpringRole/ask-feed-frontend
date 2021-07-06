@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { showErrMsg, showSuccessMsg } from "./utils/notification/Notification";
-import logo from "./LandingPage/images/favicon.png";
-import "./ActivationEmail.css";
 import axios from "axios";
+import "./ActivationEmail.css";
+import logo from "./LandingPage/images/favicon.png";
 function ActivationEmail() {
   const { token } = useParams();
-  // console.log(token);
+
   const [err, setErr] = useState("");
   const [success, setSuccess] = useState("");
   console.log(useParams());
@@ -15,20 +15,22 @@ function ActivationEmail() {
     if (token) {
       const activationEmail = async () => {
         try {
-          const res = await axios.post(`/api/activate/${token}`, {
-            token,
-          });
+          const res = await axios.post(
+            `http://localhost:2000/api/activate/${token}`,
+            {
+              token,
+            }
+          );
           setSuccess(res.data.msg);
         } catch (err) {
           err.response.data.msg && setErr(err.response.data.msg);
         }
-        // console.log(res);
       };
       activationEmail();
     }
   }, [token]);
 
-return (
+  return (
     <>
       <div className="active_page">
         {err && showErrMsg(err)}
@@ -53,3 +55,4 @@ return (
   );
 }
 export default ActivationEmail;
+
