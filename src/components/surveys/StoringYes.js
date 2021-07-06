@@ -7,7 +7,7 @@ function StoringYes() {
   const { id } = useParams();
   const [err, setErr] = useState("");
   const [success, setSuccess] = useState("");
-  console.log(useParams());
+
 
   useEffect(() => {
     if (id) {
