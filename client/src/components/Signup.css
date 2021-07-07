@@ -1,0 +1,266 @@
+html {
+  font-size: 62.5%;
+}
+
+.head {
+  position: absolute;
+  width: 51.9rem;
+  height: 7.3rem;
+  left: 14rem;
+  top: 53rem;
+
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
+  /* identical to box height */
+
+  color: #3362a8;
+}
+
+.left-description {
+  position: absolute;
+  width: 66.7rem;
+  height: 7.6rem;
+  left: 14rem;
+  top: 62.1rem;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+
+  color: #000000;
+}
+
+.signup {
+  position: relative;
+  width: 192rem;
+  height: 159rem;
+
+  background: #ffffff;
+}
+.left-column {
+  position: absolute;
+  width: 89.4rem;
+  height: 159rem;
+  left: 0rem;
+  top: 0rem;
+
+  background: #f1f7ff;
+}
+
+.clearfix {
+  position: absolute;
+  width: 27.7rem;
+  height: 3rem;
+  left: 123.3rem;
+  top: 11rem;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.name {
+  position: absolute;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 32.8rem;
+
+  background: #ffffff;
+  border: 0.1rem solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  font-size: 2.2rem;
+}
+
+.password {
+  position: absolute;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 46.2rem;
+  font-size: 2.2rem;
+  background: #ffffff;
+  border: 0.1rem solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+.email {
+  position: absolute;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 59.7rem;
+  font-size: 2.2rem;
+  background: #ffffff;
+  border: 0.1rem solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.phone {
+  position: absolute;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 73.1rem;
+  font-size: 2.2rem;
+  background: #ffffff;
+  border: 0.1rem solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.register {
+  position: absolute;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 121.3rem;
+  top: 88.3rem;
+  font-size: 2.2rem;
+  background: #3362a8;
+  border: 0.1rem solid #3362a8;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.left-column {
+  position: absolute;
+  width: 89.4rem;
+  height: 159rem;
+  left: 0rem;
+  top: 0rem;
+
+  background: #f1f7ff;
+}
+
+.divider {
+  position: absolute;
+  width: 67.2rem;
+  height: 0rem;
+  left: 99.6rem;
+  top: 106.4rem;
+
+  border: 0.2rem solid #dce1e2;
+}
+
+.OR {
+  position: absolute;
+  width: 2.88rem;
+  height: 2.7rem;
+  left: 132.2rem;
+  top: 103rem;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  /* identical to box height */
+
+  color: #3362a8;
+}
+.circle {
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+  left: 131.4rem;
+  top: 104.2rem;
+
+  background: #dce1e2;
+}
+
+.options {
+  position: absolute;
+  width: 11.1rem;
+  height: 3rem;
+  left: 127.7rem;
+  top: 113.5rem;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.login-btn {
+  position: absolute;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 154.3rem;
+  top: 8.7rem;
+
+  background: #ffffff;
+  border: 0.1rem solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.logo {
+  position: absolute;
+  width: 21.5rem;
+  height: 14.2rem;
+  left: 14rem;
+  top: 5.4rem;
+}
+.GoogleLogin {
+  position: absolute;
+  width: 10.2rem;
+  height: 10.3rem;
+  left: 128.1rem;
+  top: 120.2rem;
+  font-size: 2.2rem;
+  background: #ffffff;
+  border: 0.1rem solid #3362a8;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.terms {
+  position: absolute;
+  width: 67.2rem;
+  height: 7.5rem;
+  left: 99.6rem;
+  top: 135.3rem;
+  font-size: 2.2rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+
+  line-height: 2.5rem;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
