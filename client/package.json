@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
+    "env-cmd": "^10.1.0",
     "http-proxy-middleware": "^2.0.0",
     "install": "^0.13.0",
     "lodash": "^4.17.21",
@@ -25,7 +26,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "env-cmd -f .env.production react-scripts start",
+    "dev": "env-cmd -f .env.development react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

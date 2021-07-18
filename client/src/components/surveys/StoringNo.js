@@ -15,7 +15,7 @@ function StoringNo() {
       const activationEmail = async () => {
         try {
           const res = await axios.put(
-            `http://localhost:2000/survey/response/no/${id}`,
+            `${process.env.REACT_APP_API_KEY}/survey/response/no/${id}`,
             {
               id,
             }
@@ -38,4 +38,3 @@ function StoringNo() {
   );
 }
 export default StoringNo;
-

@@ -10,7 +10,7 @@ const Login = () => {
 
   const loginUser = async (e) => {
     e.preventDefault();
-    const res = await fetch("/api/login", {
+    const res = await fetch(`${process.env.REACT_APP_API_KEY}/api/login`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",

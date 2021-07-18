@@ -23,7 +23,7 @@ const Signup = () => {
   const PostData = async (e) => {
     e.preventDefault();
     const { name, email, phone, password } = user;
-    const res = await fetch("/api/signup", {
+    const res = await fetch(`${process.env.REACT_APP_API_KEY}/api/signup`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -40,7 +40,7 @@ const Signup = () => {
       window.alert("Invalid!");
       console.log("Invalid!");
     } else {
-      window.alert("Sucess!");
+      window.alert("Success! Please go to your mail to verify!");
       console.log(data);
       history.push("/login");
     }

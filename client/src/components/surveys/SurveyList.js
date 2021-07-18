@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { fetchSurveys } from "../../actions";
+// import "materialize-css/dist/css/materialize.min.css";
 
 class SurveyList extends Component {
   componentDidMount() {
@@ -46,4 +47,3 @@ function mapStateToProps({ surveys }) {
 }
 
 export default connect(mapStateToProps, { fetchSurveys })(SurveyList);
-

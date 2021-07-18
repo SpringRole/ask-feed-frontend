@@ -18,9 +18,12 @@ const ResetLink = () => {
 
   const forgetPassword = async () => {
     try {
-      const res = await axios.post("http://localhost:3000/api/resetlink", {
-        email,
-      });
+      const res = await axios.post(
+        `${process.env.REACT_APP_API_KEY}/api/resetlink`,
+        {
+          email,
+        }
+      );
       return setData({ ...data, err: "", success: res.data.msg });
     } catch (err) {
       console.log(err);

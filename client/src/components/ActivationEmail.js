@@ -16,7 +16,7 @@ function ActivationEmail() {
       const activationEmail = async () => {
         try {
           const res = await axios.post(
-            `http://localhost:2000/api/activate/${token}`,
+            `${process.env.REACT_APP_API_KEY}/api/activate/${token}`,
             {
               token,
             }
@@ -55,4 +55,3 @@ function ActivationEmail() {
   );
 }
 export default ActivationEmail;
-

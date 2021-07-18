@@ -8,13 +8,12 @@ function StoringYes() {
   const [err, setErr] = useState("");
   const [success, setSuccess] = useState("");
 
-
   useEffect(() => {
     if (id) {
       const activationEmail = async () => {
         try {
           const res = await axios.put(
-            `http://localhost:2000/survey/response/yes/${id}`,
+            `${process.env.REACT_APP_API_KEY}/survey/response/yes/${id}`,
             {
               id,
             }

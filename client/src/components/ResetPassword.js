@@ -22,7 +22,7 @@ function ResetPassword() {
   const handleResetPassword = async () => {
     try {
       const res = await axios.post(
-        `http://localhost:2000/api/changepassword/${token}`,
+        `${process.env.REACT_APP_API_KEY}/api/changepassword/${token}`,
         { password },
         {
           headers: { Authorization: token },
