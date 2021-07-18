@@ -17,10 +17,10 @@ function LandingPage() {
     <div>
       <div className="header">
         <div className="logo">
-          <img src={logo} />
+          <img src={logo} alt="Logo" />
         </div>
         <button type="button" className="login-btn">
-          <NavLink to="/login" className="loginn">
+          <NavLink className="loginn" to="/login">
             Login
           </NavLink>
         </button>
@@ -40,7 +40,7 @@ function LandingPage() {
           same.
         </div>
         <div className="hero-image">
-          <img src={hero} />
+          <img src={hero} alt="hero" />
         </div>
       </div>
       <div className="second-level">
@@ -60,12 +60,12 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <div class="group-2">
-          <div class="ellipse-2">
-            <div class="num-2">2</div>
-            <div class="el-head-2">
+        <div className="group-2">
+          <div className="ellipse-2">
+            <div className="num-2">2</div>
+            <div className="el-head-2">
               Customer Survey
-              <p class="el-p-2">
+              <p className="el-p-2">
                 Gain valuable insights to improve employee engagement,
                 satisfaction, and company culture.
               </p>
@@ -95,64 +95,64 @@ function LandingPage() {
           </div>
         </div>
       </div>
-      <img class="third-level-image" src={thirdLevel} />
-      <div class="third-level-head">
+      <img className="third-level-image" src={thirdLevel} alt="3rd level img" />
+      <div className="third-level-head">
         <p>Find out what employees really think🤔</p>
       </div>
-      <div class="third-level-para">
+      <div className="third-level-para">
         <p>
           simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry's standard dummy text ever since the
           1500s, when an unknown printer took a galley of type and
         </p>
       </div>
-      <div class="fourth-level-head">
+      <div className="fourth-level-head">
         <p>How We Can Help You?</p>
       </div>
       <div className="box-1"></div>
-      <img className="box-img-1" src={box1} />
+      <img className="box-img-1" src={box1} alt="box-img" />
       <div className="box-head-1">Customer Surveys</div>
       <p className="box-para-1">
         Gain valuable insights to improve employee engagement, satisfaction, and
         company culture.
       </p>
       <div className="box-2"></div>
-      <img className="box-img-2" src={box2} />
+      <img className="box-img-2" src={box2} alt="box-img-2" />
       <div className="box-head-2">Customer Surveys</div>
       <p className="box-para-2">
         Gain valuable insights to improve employee engagement, satisfaction, and
         company culture.
       </p>
       <div className="box-3"></div>
-      <img className="box-img-3" src={box3} />
+      <img className="box-img-3" src={box3} alt="box-img-3" />
       <div className="box-head-3">Customer Surveys</div>
       <p className="box-para-3">
         Gain valuable insights to improve employee engagement, satisfaction, and
         company culture.
       </p>
       <div className="box-4"></div>
-      <img className="box-img-4" src={box4} />
+      <img className="box-img-4" src={box4} alt="box-img-4" />
       <div className="box-head-4">Customer Surveys</div>
       <p className="box-para-4">
         Gain valuable insights to improve employee engagement, satisfaction, and
         company culture.
       </p>
       <div className="box-5"></div>
-      <img className="box-img-5" src={box5} />
+      <img className="box-img-5" src={box5} alt="box-img-5" />
       <div className="box-head-5">Customer Surveys</div>
       <p className="box-para-5">
         Gain valuable insights to improve employee engagement, satisfaction, and
         company culture.
       </p>
       <div className="box-6"></div>
-      <img className="box-img-6" src={box6} />
+      <img className="box-img-6" src={box6} alt="box-img-6" />
       <div className="box-head-6">Customer Surveys</div>
       <p className="box-para-6">
         Gain valuable insights to improve employee engagement, satisfaction, and
         company culture.
       </p>
       <div className="testimonial">Testimonials</div>
-      <img className="testimonial-img" src={testimonial} />
+      <img className="testimonial-img" src={testimonial} alt="testimonial" />
       <div className="testimonial-box"></div>
       <div className="testimonial-para">
         Form builders are as old as the web, but Typeform elevates the medium
@@ -168,7 +168,7 @@ function LandingPage() {
         <p className="get-started-btn-text">Get Started</p>
       </button>
       <div className="footer"></div>
-      <img className="footer-img" src={footerImage} />
+      <img className="footer-img" src={footerImage} alt="footer" />
       <NavLink to="/about" className="about">
         <button className="footer-about-us-btn">About Us</button>
       </NavLink>

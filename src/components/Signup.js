@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import "./Signup.css";
-import logo from "../LandingPage/images/favicon.png";
+import logo from "./LandingPage/images/favicon.png";
 
 const Signup = () => {
   const history = useHistory();
@@ -127,17 +127,6 @@ const Signup = () => {
             </NavLink>
           </form>
         </div>
-      </div>
-      <div className="divider"></div>
-      <div className="circle"></div>
-      <p className="OR">OR</p>
-      <div className="options">Login with</div>
-      <button className="GoogleLogin">Goggle</button>
-      <div className="terms">
-        By clicking ‘Register’, you agree to the Terms of Use and Privacy
-        Notice. You also agree to receive information and offers relevant to our
-        services via email. You can opt-out of these emails in your My Account
-        page anytime.
       </div>
     </>
   );

@@ -1,133 +1,19 @@
-/* * {
-  margin: 0;
-  padding: 3px;
+html {
+  font-size: 62.5%;
 }
-
-body {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg")
-    center center no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  font-size: 65pt;
-  font-family: "Spartan";
-  color: #366a83;
-/* } 
-.contact-us {
-  background: #f8f4e5;
-  padding: 50px 100px;
-  border-top: 10px solid #f45702;
-}
-
-.form-title {
-  padding-left: 58px;
-  color: #277eb1;
-}
-
-.register {
-  color: #366a83;
-} 
-
-.clearfix {
-  color: #366a83;
-  text-decoration: none;
-  padding-left: 50px;
-  font-size: 15pt;
-}
-label,
-input,
-textarea {
-  display: block;
-  width: 100%;
-  font-size: 15pt;
-  line-height: 24pt;
-  font-family: "Spartan";
-}
-input {
-  margin-bottom: 12pt * 2;
-}
-
-h3 {
-  font-weight: normal;
-  font-size: 10pt;
-  line-height: 12pt * 2;
-  font-style: italic;
-  margin: 0 0 0.5em 0;
-}
-span {
-  font-size: 8pt;
-}
-
-em {
-  color: #f45702;
-  font-weight: bold;
-}
-input,
-textarea {
-  border: none;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
-  background: #f8f4e5;
-  padding-left: 5px;
-  outline: none;
-}
-input:focus,
-textarea:focus {
-  border: 1px solid #6bd4b1;
-}
-textarea {
-  resize: none;
-}
-
-button {
-  display: block;
-  float: right;
-  line-height: 12pt * 2;
-  padding: 0 20px;
-  border: none;
-  background: #f45702;
-  color: white;
-  letter-spacing: 2px;
-  transition: 0.2s all ease-in-out;
-  border-bottom: 2px solid transparent;
-  outline: none;
-
-  /* &:hover
-    background: inherit
-    color: #f45702
-    border-bottom: 2px solid #f45702 */
-/* }
-::selection {
-  background: rgb(255, 199, 184);
-} */
-/* 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus {
-  border: 1px solid #6bd4b1;
-  -webkit-text-fill-color: #2a293e;
-} */
-/* -webkit-box-shadow: 0 0 0px 1000px #f8f4e5; inset} */
-/* transition: background-color 5000s ease-in-out 0s} */
 
 .head {
   position: absolute;
-  width: 519px;
-  height: 73px;
-  left: 140px;
-  top: 530px;
+  width: 51.9rem;
+  height: 7.3rem;
+  left: 14rem;
+  top: 53rem;
 
-  font-family: Paytone One;
+  font-family: Paytone One sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 5.2rem;
+  line-height: 7.3rem;
   /* identical to box height */
 
   color: #3362a8;
@@ -135,49 +21,49 @@ textarea:-webkit-autofill:focus {
 
 .left-description {
   position: absolute;
-  width: 667px;
-  height: 76px;
-  left: 140px;
-  top: 621px;
+  width: 66.7rem;
+  height: 7.6rem;
+  left: 14rem;
+  top: 62.1rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 
   color: #000000;
 }
 
 .signup {
   position: relative;
-  width: 1920px;
-  height: 1590px;
+  width: 192rem;
+  height: 159rem;
 
   background: #ffffff;
 }
 .left-column {
   position: absolute;
-  width: 894px;
-  height: 1590px;
-  left: 0px;
-  top: 0px;
+  width: 89.4rem;
+  height: 159rem;
+  left: 0rem;
+  top: 0rem;
 
   background: #f1f7ff;
 }
 
 .clearfix {
   position: absolute;
-  width: 277px;
-  height: 30px;
-  left: 1233px;
-  top: 110px;
+  width: 27.7rem;
+  height: 3rem;
+  left: 123.3rem;
+  top: 11rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
 
   color: #000000;
@@ -187,128 +73,118 @@ textarea:-webkit-autofill:focus {
 
 .name {
   position: absolute;
-  width: 672px;
-  height: 103px;
-  left: 996px;
-  top: 328px;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 32.8rem;
 
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
-  font-size: 22px;
+  border-radius: 0.5rem;
+  font-size: 2.2rem;
 }
 
 .password {
   position: absolute;
-  width: 672px;
-  height: 103px;
-  left: 996px;
-  top: 462px;
-  font-size: 22px;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 46.2rem;
+  font-size: 2.2rem;
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 .email {
   position: absolute;
-  width: 672px;
-  height: 103px;
-  left: 996px;
-  top: 597px;
-  font-size: 22px;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 59.7rem;
+  font-size: 2.2rem;
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .phone {
   position: absolute;
-  width: 672px;
-  height: 103px;
-  left: 996px;
-  top: 731px;
-  font-size: 22px;
+  width: 67.2rem;
+  height: 10.3rem;
+  left: 99.6rem;
+  top: 73.1rem;
+  font-size: 2.2rem;
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .register {
   position: absolute;
-  width: 237px;
-  height: 76px;
-  left: 1213px;
-  top: 883px;
-  font-size: 22px;
+  width: 23.7rem;
+  height: 7.6rem;
+  left: 121.3rem;
+  top: 88.3rem;
+  font-size: 2.2rem;
   background: #3362a8;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
   color: white;
-  border-radius: 5px;
-}
-
-.left-column {
-  position: absolute;
-  width: 894px;
-  height: 1590px;
-  left: 0px;
-  top: 0px;
-
-  background: #f1f7ff;
+  border-radius: 0.5rem;
 }
 
 .divider {
   position: absolute;
-  width: 672px;
-  height: 0px;
-  left: 996px;
-  top: 1064px;
+  width: 67.2rem;
+  height: 0rem;
+  left: 99.6rem;
+  top: 106.4rem;
 
-  border: 2px solid #dce1e2;
+  border: 0.2rem solid #dce1e2;
 }
 
 .OR {
   position: absolute;
-  width: 28.8px;
-  height: 27px;
-  left: 1322px;
-  top: 1030px;
+  width: 2.88rem;
+  height: 2.7rem;
+  left: 132.2rem;
+  top: 103rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
   /* identical to box height */
 
   color: #3362a8;
 }
 .circle {
   position: absolute;
-  width: 45px;
-  height: 45px;
-  left: 1314px;
-  top: 1042px;
+  width: 4.5rem;
+  height: 4.5rem;
+  left: 131.4rem;
+  top: 104.2rem;
 
   background: #dce1e2;
 }
 
 .options {
   position: absolute;
-  width: 111px;
-  height: 30px;
-  left: 1277px;
-  top: 1135px;
+  width: 11.1rem;
+  height: 3rem;
+  left: 127.7rem;
+  top: 113.5rem;
 
-  font-family: Open Sans;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   /* identical to box height */
 
   color: #000000;
@@ -318,51 +194,78 @@ textarea:-webkit-autofill:focus {
 
 .login-btn {
   position: absolute;
-  width: 237px;
-  height: 76px;
-  left: 1543px;
-  top: 87px;
+  width: 0.0001rem;
+  height: 7.6rem;
+  /* left: 154.3rem; */
+  left: 1.3rem;
+  top: 8.7rem;
+
+  background: #f1f7ff;
+  border: 0.1rem solid #f1f7ff;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+/* .login-btn {
+  position: absolute;
+  width: 23.7rem;
+  height: 7.6rem;
+  /* left: 154.3rem; */
+/*left: 1.3rem;
+  top: 8.7rem;
 
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
-}
+  border-radius: 0.5rem;
+} */
 
 .logo {
   position: absolute;
-  width: 215px;
-  height: 142px;
-  left: 140px;
-  top: 54px;
+  width: 21.5rem;
+  height: 14.2rem;
+  left: 14rem;
+  top: 5.4rem;
 }
 .GoogleLogin {
   position: absolute;
-  width: 102px;
-  height: 103px;
-  left: 1281px;
-  top: 1202px;
-  font-size: 22px;
+  width: 10.2rem;
+  height: 10.3rem;
+  left: 128.1rem;
+  top: 120.2rem;
+  font-size: 2.2rem;
   background: #ffffff;
-  border: 1px solid #3362a8;
+  border: 0.1rem solid #3362a8;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .terms {
   position: absolute;
-  width: 672px;
-  height: 75px;
-  left: 996px;
-  top: 1353px;
-  font-size: 22px;
-  font-family: Open Sans;
+  width: 67.2rem;
+  height: 7.5rem;
+  left: 99.6rem;
+  top: 135.3rem;
+  font-size: 2.2rem;
+  font-family: Open Sans sans-serif;
   font-style: normal;
   font-weight: 600;
 
-  line-height: 25px;
+  line-height: 2.5rem;
 
   color: #000000;
 
   opacity: 0.5;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
+

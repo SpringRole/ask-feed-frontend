@@ -82,7 +82,7 @@ const Login = () => {
                 required
               />
             </div>
-            <NavLink to="/" className="reset-password">
+            <NavLink to="/api/resetlink" className="reset-password">
               Forget Password ?
             </NavLink>
             <NavLink to="/register" className="signin-link">
@@ -90,12 +90,6 @@ const Login = () => {
             </NavLink>
             <button className="register-btn">Create an Account</button>
           </form>
-          <div className="divider"></div>
-          <div className="OR">OR</div>
-          <p className="login-options">Login With</p>
-          <button className="google-btn">
-            <a href="/auth/google"> Google</a>
-          </button>
         </div>
       </div>
     </>

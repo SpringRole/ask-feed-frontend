@@ -5,27 +5,23 @@ import { connect } from "react-redux";
 import * as actions from "../actions";
 import Login from "./Login";
 import Signup from "./Signup";
-import About from "./About";
+import ResetLink from "./ResetLink";
 import Dashboard from "./Dashboard";
-import SurveyNew from "./SurveyNew";
-import Header from "./Header";
-import "./App.css";
+import ResetPassword from "./ResetPassword";
+import SurveyNew from "./surveys/SurveyNew";
+import Logout from "./Logout";
+import EditInfo from "./EditInfo";
 import ActivationEmail from "./ActivationEmail";
+import StoringYes from "./surveys/StoringYes.js";
+import StoringNo from "./surveys/StoringNo.js";
+
 
 class App extends Component {
-  // componentDidMount() {
-  //   this.props.fetchUser();
-  // }
-
   render() {
     return (
       <div className="container">
         <BrowserRouter>
           <div>
-            {/* <Route exact path="/header">
-            <Header />
-          </Route> */}
-            {/* <Header /> */}
             <Route exact path="/">
               <LandingPage />
             </Route>
@@ -35,9 +31,6 @@ class App extends Component {
             <Route exact path="/register">
               <Signup />
             </Route>
-            {/* <Route exact path="/about">
-            <About />
-          </Route> */}
             <Route exact path="/dashboard">
               <Dashboard />
             </Route>
@@ -46,10 +39,27 @@ class App extends Component {
               path="/api/activate/:token"
               component={ActivationEmail}
             />
-
-            {/* <Route exact path="/surveys/new">
-            <SurveyNew />
-          </Route>  */}
+            <Route exact path="/api/resetlink">
+              <ResetLink />
+            </Route>
+            <Route exact path="/api/changepassword/:token">
+              <ResetPassword />
+            </Route>
+            <Route
+              exact
+              path="/survey/response/yes/:id"
+              component={StoringYes}
+            />
+            <Route exact path="/survey/response/no/:id" component={StoringNo} />
+            <Route exact path="/surveys/new">
+              <SurveyNew />
+            </Route>
+            <Route exact path="/api/logout">
+              <Logout />
+            </Route>
+            <Route exact path="/api/editInfo">
+              <EditInfo />
+            </Route>
           </div>
         </BrowserRouter>
       </div>
@@ -58,3 +68,4 @@ class App extends Component {
 }
 
 export default connect(null, actions)(App);
+
